@@ -1,0 +1,10 @@
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+.customGrid {
+  width: 1024px;
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
