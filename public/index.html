@@ -19,10 +19,11 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="custom.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Resume</title>
   </head>
   <body>
-    <div class="h-full bg-gray-100">
+    <div class="h-full bg-gray-100" id="Docs">
       <div class="shadow-xl h-full mx-auto customGrid">
         <!-- ================ left side ================================== -->
         <div class="" style="background-color: #f7d8bb">
@@ -31,6 +32,7 @@
             style="height: 160px; width: 160px"
             src="arshad.jpg"
             alt="my-image"
+            id="image"
           />
           <div class="pl-2 mt-5">
             <h3
@@ -278,5 +280,7 @@
         </div>
       </div>
     </div>
+
+    <script src="./index.js"></script>
   </body>
 </html>
